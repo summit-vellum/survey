@@ -1,0 +1,26 @@
+{
+    "name": "quill/survey",
+    "description": "Survey",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikko",
+            "email": "miguelandreirafael.penuela@pep.ph"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Quill\\Survey\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quill\\Survey\\SurveyServiceProvider"
+            ]
+        }
+    }
+}
